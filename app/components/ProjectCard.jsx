@@ -20,9 +20,9 @@ const ProjectCard = ({ imgUrl, title, role, description, image, gitUrl, previewU
             </Link>
           )}
           
-          {previewUrl && (
+          {(previewUrl || imgUrl) && (
             <Link 
-              href={previewUrl} 
+              href={previewUrl || imgUrl} 
               target="_blank"
               className="h-12 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link" 
             >

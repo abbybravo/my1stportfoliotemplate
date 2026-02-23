@@ -3,7 +3,7 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-import { img } from "framer-motion/client";
+import { img, pre } from "framer-motion/client";
 
 const projectsData = [
   {
@@ -14,7 +14,8 @@ const projectsData = [
       "Led a 5-person team through end-to-end development of a constrained electromechanical sorting system, achieving a top-3 performance during final testing.",
     image: "/images/projects/mech-design1.png",
     tag: ["All", "Mechanical"],
-    imgUrl: "/images/projects/mech-design1.png"
+    imgUrl: "/images/projects/mech-design1.png",
+    previewUrl: null
   },
   {
     id: 2,
@@ -23,7 +24,8 @@ const projectsData = [
       "Completing Data Scientist Certification Path; preparing to manage data ingestion and model training/deployment via Python, Azure ML, and MLflow, which will be applied to a 2-week hackathon.",
     image: "/images/projects/microsoft-shpe2.png",
     tag: ["All", "Tech"],
-    imgUrl: "/images/projects/microsoft-shpe2.png"
+    imgUrl: "/images/projects/microsoft-shpe2.png",
+    previewUrl: null
   },
   {
     id: 3,
