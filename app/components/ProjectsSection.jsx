@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import { img } from "framer-motion/client";
 
 const projectsData = [
   {
@@ -13,7 +14,7 @@ const projectsData = [
       "Led a 5-person team through end-to-end development of a constrained electromechanical sorting system, achieving a top-3 performance during final testing.",
     image: "/images/projects/mech-design1.png",
     tag: ["All", "Mechanical"],
-    previewUrl: "/images/projects/mech-design1.png"
+    imgUrl: "/images/projects/mech-design1.png"
   },
   {
     id: 2,
@@ -22,7 +23,7 @@ const projectsData = [
       "Completing Data Scientist Certification Path; preparing to manage data ingestion and model training/deployment via Python, Azure ML, and MLflow, which will be applied to a 2-week hackathon.",
     image: "/images/projects/microsoft-shpe2.png",
     tag: ["All", "Tech"],
-    previewUrl: "/images/projects/microsoft-shpe2.png"
+    imgUrl: "/images/projects/microsoft-shpe2.png"
   },
   {
     id: 3,
@@ -31,6 +32,7 @@ const projectsData = [
       "Built a parametric 4‑cylinder piston–crankshaft mechanism using revolute, slider, and motion‑linked joints to simulate accurate mechanical motion in Fusion 360.",
     image: "/images/projects/piston-crankshaft.png",
     tag: ["All", "Mechanical"],
+    imgUrl: "/images/projects/piston-crankshaft.png",
     previewUrl: "https://cougarnet1140.autodesk360.com/g/shares/SH28cd1QT2badd0ea72bedb823af72d1f1f1",
     motionVideo: "/images/projects/Moving-Piston-and-Crank-Shaft.mp4"
   },
@@ -89,7 +91,8 @@ const ProjectsSection = () => {
                 title={project.title}
                 role={project.role} 
                 description={project.description} 
-                imgUrl={project.image} 
+                image={project.image}
+                imgUrl={project.imgUrl} 
                 gitUrl={project.gitUrl}
                 previewUrl={project.previewUrl}
                 motionVideo={project.motionVideo}

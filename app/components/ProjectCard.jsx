@@ -49,17 +49,17 @@ const ProjectCard = ({ imgUrl, title, role, description, image, gitUrl, previewU
           View Motion Demo 
         </a> 
       )}
-      <div className="flex md:hidden justify-center mt-3 gap-4">
         {previewUrl && ( 
-          <Link 
-            href={previewUrl} 
-            target="_blank" 
-            className="px-4 py-2 rounded-lg border border-white text-sm font-semibold text-white" 
-          > 
-            View 3D Model 
-          </Link> 
-        )}
-      </div>
+          <div className="flex md:hidden justify-center mt-3 gap-4">
+            <Link 
+              href={previewUrl} 
+              target="_blank" 
+              className="px-4 py-2 rounded-lg border border-white text-sm font-semibold text-white" 
+            > 
+              View 3D Model 
+            </Link> 
+        </div>
+      )}
     </div>
   );
 };
