@@ -85,7 +85,7 @@ const AboutSection = () => {
     };
 
     return (
-        <section id= "about" className="text-white pt-10 pb-1 md:pb-8">
+        <section id="about" className="text-white pt-10 pb-1 md:pb-8">
             <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
                 <div className="relative w-full max-w-[420px] h-[420px] md:h-[460px] flex justify-center md:justify-start">
                     <Image 
@@ -98,18 +98,11 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base lg:text-lg">
-                        I am a first-generation junior at the University of Houston, majoring in 
-                        Mechanical Engineering and completed a minor in Business Administration.
-                        I aspire to earn my MBA at one of the M7 or a Master's in Engineering Management.
-
-                        I am the oldest daughter of Mexican-immigrant parents, and have a little sister
-                        who's about to enter high school and wants to be a surgeon when she grows up, and go
-                        to Harvard or Yale.
-
-                        My "Why?" to everything I do is my family. My long-term goals are to buy 
-                        my family a house, with the biggest garden for my mom, and a truck for my dad's
-                        construction company, and so my little sister can finally have her own room. Additionally,
-                        once I have the proper funds, I'd want to get my parents their green cards.
+                        I’m a first-generation junior at the University of Houston, majoring in Mechanical Engineering with a minor in Business Administration. 
+                        My goal is to merge engineering expertise with business insight, 
+                        with a particular interest in project and technical program management. My goal is to break into big tech, leading cross-functional projects that turn ideas into results.
+                        I hope to pursue an MBA or a Master’s in Engineering Management in the future. 
+                        I’m driven by a desire to make a tangible impact, both in my work and in the lives of those I care about, bringing curiosity, creativity, and a strong work ethic to every project.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton 

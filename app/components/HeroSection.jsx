@@ -16,7 +16,7 @@ const HeroSection = () => {
                     className="md:col-span-7 col-span-9 place-self-center text-center md:text-left"
                 >                                       
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-[#03045E] dark:from-blue-400 dark:to-blue-600">
                             Hello, I'm{" "}
                         </span>
                         <br></br>
@@ -36,7 +36,7 @@ const HeroSection = () => {
                             repeat={0}
                         />   
                     </h1>
-                    <p className="text-[#545454] text-base sm:text-lg mb-6 lg:text-xl">
+                    <p className="text-gray-300 text-base sm:text-lg mb-6 lg:text-xl">
                         Driven by curiosity, grounded by purpose, and always excited to learn from others.
                     </p>
 
@@ -47,7 +47,7 @@ const HeroSection = () => {
                         transition={{ duration: 0.5}} 
                         className="col-span-9 md:col-span-5 place-self-center mx-auto md:mx-0 mt-4 lg:mt-0">
                         <div className="flex justify-center w-full">
-                            <div className="rounded-full bg-[#3788ff] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+                            <div className="rounded-full bg-[#1D3461] dark:bg-[#6290C8] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                                 <Image
                                     src ="/images/hero image rounded.png"
                                     alt = "hero image"

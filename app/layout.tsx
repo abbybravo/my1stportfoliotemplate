@@ -13,7 +13,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="en">
-        <body className= "bg-blue-200 dark:bg-black">
+        <body>
           <ThemeProvider>
             <Navbar />
             <main className="flex min-h-screen flex-col mt-18 md:mt-22">

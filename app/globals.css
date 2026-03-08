@@ -2,12 +2,49 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #bedbff;
+  --background: #6290C8;
   --foreground: #121212;
 }
 
 .dark { 
-  --background: #000000; 
+  --background: #212529; 
+  --foreground: #ffffff; 
+}
+
+body {
+  background: var(--background); 
+  color: var(--foreground);
+}
+
+html, body {
+  overflow-x: hidden;
+}
+:root {
+  --background: #6290C8;
+  --foreground: #121212;
+}
+
+.dark { 
+  --background: #212529; 
+  --foreground: #ffffff; 
+}
+
+body {
+  background: var(--background); 
+  color: var(--foreground);
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+:root {
+  --background: #6290C8;
+  --foreground: #121212;
+}
+
+.dark { 
+  --background: #212529; 
   --foreground: #ffffff; }
 
 body {
@@ -17,4 +54,5 @@ body {
 
 html, body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }

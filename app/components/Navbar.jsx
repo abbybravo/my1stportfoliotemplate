@@ -50,7 +50,7 @@ const Navbar = () => {
 	}, []);
 
     return (
-        <nav className={`fixed top-0 left-0 right-0 z-40 border-b border-blue-500 ${dark ? 'bg-black' : 'bg-blue-200 md:bg-blue-200/90'}`}>
+        <nav className={`fixed top-0 left-0 right-0 z-40 border-b-2 border-[#1D3461] dark:border-[#6290C8] ${dark ? 'bg-[#212529]' : 'bg-[#6290C8] md:bg-[#6290C8]/90'}`}>
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-10 py-2">
                 <Link 
                     href={"/"} 
@@ -58,7 +58,8 @@ const Navbar = () => {
                     className="text-xl md:text-3xl font-semibold"
                 >
                     <Image
-						src={'/images/portfolio-logo-4.png'}
+						src={dark ? "/images/portfolio-logo-fordarkmode.png" : "/images/portfolio-logo-forlightmode.png"}
+
 						width={80}
 						height={80}
 						alt="logo"
@@ -66,11 +67,11 @@ const Navbar = () => {
                 </Link>
                 <div className="mobile-menu block md:hidden">
                     {!navOpen ? (
-                        <button onClick={() => setNavOpen(true)} className="flex items-center px-3 py-2 border rounded border-[#3788ff] text-[#3788ff] hover:text-white hover:border-white dark:border-slate-200 dark:text-slate-200">
+                        <button onClick={() => setNavOpen(true)} className="flex items-center px-3 py-2 border rounded border-[#1D3461] text-[#1D3461] hover:text-white hover:border-white dark:border-[#6290C8] dark:text-[#6290C8]">
                             <Bars3Icon className="h-5 w-5" />
                         </button>
                     ) : (
-                        <button onClick={() => setNavOpen(false)} className="flex items-center px-3 py-2 border rounded border-[#3788ff] text-[#3788ff] hover:text-white hover:border-white dark:border-slate-200 dark:text-slate-200">
+                        <button onClick={() => setNavOpen(false)} className="flex items-center px-3 py-2 border rounded border-[#1D3461] text-[#1D3461] hover:text-white hover:border-white dark:border-[#6290C8] dark:text-[#6290C8]">
                             <XMarkIcon className="h-5 w-5" />
                         </button>     
                     )}

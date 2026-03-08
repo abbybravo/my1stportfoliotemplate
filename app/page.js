@@ -13,7 +13,7 @@ export default function Home() {
   const { dark } = useTheme();
 
   return (
-      <main className={`flex min-h-screen flex-col ${dark ? 'bg-black' : 'bg-blue-200'}`}>
+      <main className={`flex min-h-screen flex-col ${dark ? 'bg-[#212529]' : 'bg-[#6290C8]'}`}>
         <div className="container mx-auto px-12 py-4">
           <HeroSection />
           <AboutSection />
