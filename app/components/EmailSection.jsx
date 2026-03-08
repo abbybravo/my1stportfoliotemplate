@@ -106,7 +106,7 @@ const EmailSection = () => {
                         </button>
 
                         {submitted && (
-                            <p className="text-green-500 mt-3">
+                            <p className="text-white mt-3">
                             Thanks! Your message has been sent.
                             </p>
                     )}
