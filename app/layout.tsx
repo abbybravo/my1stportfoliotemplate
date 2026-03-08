@@ -13,6 +13,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="en">
+        <head>
+          <link rel="icon" href="/favicon-32x32.ico" />
+        </head>
         <body>
           <ThemeProvider>
             <Navbar />
