@@ -49,8 +49,8 @@ const projectsData = [
     id: 4,
     title: "CCTV-Camera",
     description: 
-      "Build an ESP32-based CCTV camera with live video streaming and motion detection capabilities, utilizing the ESP32-CAM module and integrating it with a website for remote monitoring.",
-    longDescription: "Build an ESP32-based CCTV camera with live video streaming and motion detection capabilities, utilizing the ESP32-CAM module and integrating it with a website for remote monitoring.",
+      "Build an ESP32-based CCTV camera with live video streaming, utilizing the ESP32-CAM module and integrating it with a website for remote monitoring.",
+    longDescription: "Build an ESP32-based CCTV camera with live video streaming, utilizing the ESP32-CAM module and integrating it with a website for remote monitoring.",
     image: "/images/projects/cctv-camera.png",
     tag: ["All", "Electrical"],
     skills: ["ESP32", "CCTV"],
@@ -60,13 +60,13 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Bull Shark Sightings PowerBI Dashboard",
+    title: "Bull Shark Sightings Power BI Dashboard",
     description: 
-      "Developed an interactive dashboard global bull shark sightings from 2021–2026 using GBIF data.",
+      "Developed an interactive dashboard with global bull shark sightings from 2021–2026 using GBIF data.",
     longDescription: "This interactive Power BI dashboard visualizes global bull shark sightings from 2021–2026 using the GBIF Shark Sightings Dataset. It highlights regional hotspots, year‑over‑year trends, and the most recent recorded sighting. The project focuses on data cleaning, geographic mapping, and visual storytelling through custom design elements, summary metrics, and filter‑driven exploration.",
     image: "/images/projects/bull-shark.png",
     tag: ["All", "Data Science"],
-    skills: ["PowerBI", "Data Analysis", "Visualization"],
+    skills: ["Power BI", "Data Analysis", "Visualization"],
     liveUrl: "https://app.powerbi.com/view?r=eyJrIjoiYWYwNGI4OTUtNzQwMS00ZDBiLWE2ZTQtMWQ5M2MxZjU0ZWYxIiwidCI6IjE3MGJiYWJkLWEyZjAtNGM5MC1hZDRiLTBlOGYwZjBjNDI1OSIsImMiOjN9",
     repoUrl: "https://github.com/example",
     href: null
