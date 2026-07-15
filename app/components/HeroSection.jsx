@@ -22,13 +22,13 @@ const HeroSection = () => {
                         <br></br>
                         <TypeAnimation
                             sequence={[
-                                'Abby Bravo',
+                                'Your Name',
                                 1000,
-                                'a Mechanical Engineer',
+                                'a Your Major',
                                 1000,
-                                'an Aspiring Project Manager',
+                                'an Aspiring Your Role',
                                 1000,
-                                'Abby Bravo',
+                                'Your Name',
                                 1000,
                             ]}
                             wrapper="span"
@@ -37,7 +37,7 @@ const HeroSection = () => {
                         />   
                     </h1>
                     <p className="text-gray-300 text-base sm:text-lg mb-6 lg:text-xl">
-                        Driven by curiosity, grounded by purpose, and always excited to learn from others.
+                        Your tagline, quote, or anything short here.
                     </p>
 
                 </motion.div>
@@ -49,8 +49,8 @@ const HeroSection = () => {
                         <div className="flex justify-center w-full">
                             <div className="rounded-full bg-[#1D3461] dark:bg-[#6290C8] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                                 <Image
-                                    src ="/images/hero image rounded.png"
-                                    alt = "hero image"
+                                    src ="/images/Placeholder.png"
+                                    alt = "Placeholder hero image"
                                     className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full object-cover"
                                     width = {350}
                                     height = {350}

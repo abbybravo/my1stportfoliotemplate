@@ -9,10 +9,10 @@ const Footer = () => {
                 <div className="container px-12 py-6 flex justify-between items-center">
                     <span>
                         <Image
-                            src={dark ? "/images/portfolio-logo-fordarkmode.png" : "/images/portfolio-logo-forlightmode.png"}
+                            src="/images/Placeholder.png"
                             width={60}
                             height={60}
-                            alt="logo"
+                            alt="Portfolio placeholder logo"
                         />
                     </span>
                     <p className="text-gray-300">Copyright @ 2026 Abigail Bravo.</p>

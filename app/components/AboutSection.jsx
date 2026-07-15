@@ -9,22 +9,7 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className="grid grid-cols-2 sm:grid-cols-2 list-disc pl-4 w-fit gap-x-12">
-                <li>AutoCAD</li>
-                <li>SolidWorks</li>
-                <li>Microsoft Excel</li>
-                <li>Synchro</li>
-                <li>Tableau</li>
-                <li>HTML</li>
-                <li>Python</li>
-                <li>Linux</li>
-                <li>C++</li>
-                <li>PowerBI</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>PostgreSQL</li>
-                <li>Sequelize</li>
-                <li>JavaScript</li>
-                <li>React</li>
+                <li>Add Skills Here</li>
             </ul>
         )
     },
@@ -34,17 +19,17 @@ const TAB_DATA = [
         content: (
             <ul className="space-y-3">
                 <li className="flex items-center gap-3">
-                    <Image src="/images/uh-engineering-logo2.png" width={150} height={150} alt="uh cullen logo"/>
-                    <span>Cullen College of Engineering <br></br>
-                        Mechnical Engineering <br></br>
-                        May 2027</span>
+                    <Image src="/images/Placeholder.png" width={150} height={150} alt="Placeholder education image"/>
+                    <span>School Name<br></br>
+                        Major <br></br>
+                        Grad Date</span>
                 </li>
 
                 <li className="flex items-center gap-3">
-                    <Image src="/images/uh-business-logo.png" width={150} height={150} alt="uh bauer logo"/>
-                    <span>C.T. Bauer College of Business <br></br>
-                        Business Administration <br></br>
-                        December 2025</span>
+                    <Image src="/images/Placeholder.png" width={150} height={150} alt="Placeholder education image"/>
+                    <span>School Name<br></br>
+                        Minor/Major <br></br>
+                        Grad Date</span>
                 </li>
             </ul>
         )
@@ -54,13 +39,13 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className="list-disc pl-2">
-                <li>General Motors Certificate in Agile Project Management</li>
+                <li>Certificate Name</li>
             </ul>
         ),
     },
 ];
 
-const images = ['/images/about-image-1st.png', '/images/about-image-2.png', '/images/about-image-3rd.png'];
+const images = ['/images/Placeholder.png'];
 const AboutSection = () => {
     const [tab, setTab] = useState("skills");
     const [isPending, startTransition] = useTransition();
@@ -91,18 +76,14 @@ const AboutSection = () => {
                     <Image 
                         src={currentImage}
                         fill
-                        alt="about image 1"
+                        alt="About placeholder image"
                         className="object-cover rounded-xl"
                         />
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base lg:text-lg">
-                        I’m a first-generation junior at the University of Houston, majoring in Mechanical Engineering with a minor in Business Administration. 
-                        My goal is to merge engineering expertise with business insight, 
-                        with a particular interest in project and technical program management. My goal is to break into big tech, leading cross-functional projects that turn ideas into results.
-                        I hope to pursue an MBA or a Master’s in Engineering Management in the future. 
-                        I’m driven by a desire to make a tangible impact, both in my work and in the lives of those I care about, bringing curiosity, creativity, and a strong work ethic to every project.
+                        Your About Me Text
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton 

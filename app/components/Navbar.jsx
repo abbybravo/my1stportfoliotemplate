@@ -58,11 +58,11 @@ const Navbar = () => {
                     className="text-xl md:text-3xl font-semibold"
                 >
                     <Image
-						src={dark ? "/images/portfolio-logo-fordarkmode.png" : "/images/portfolio-logo-forlightmode.png"}
+						src="/images/Placeholder.png"
 
 						width={80}
 						height={80}
-						alt="logo"
+						alt="Portfolio placeholder logo"
                     />
                 </Link>
                 <div className="mobile-menu block md:hidden">

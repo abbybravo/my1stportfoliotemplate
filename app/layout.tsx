@@ -14,7 +14,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
         <head>
-          <link rel="icon" href="/favicon-32x32.ico" />
+          <link rel="icon" href="/favicon.ico" />
         </head>
         <body>
           <ThemeProvider>

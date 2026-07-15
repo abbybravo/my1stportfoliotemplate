@@ -1,7 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import LinkedinIcon from "../../public/linkedin-logo.svg";
-import GithubIcon from "../../public/github-logo2.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -15,7 +13,7 @@ const EmailSection = () => {
         const data = new FormData(form);
 
         try {
-        await fetch("https://formspree.io/f/xbdawvwd", {
+        await fetch("https://formspree.io/f/yourformspreeid", {
             method: "POST",
             body: data,
             headers: { Accept: "application/json" },
@@ -40,17 +38,17 @@ const EmailSection = () => {
                     Always happy to connect! Whether it’s over a quick coffee chat or simply to share experiences.
                 </p>
                 <div className="socials flex flex-row gap-3">
-                    <Link href="https://linkedin.com/in/abigailbravo">
-                        <Image src={LinkedinIcon} alt = "Linkedin Icon" width={32} height={32}/>
+                    <Link href="https://linkedin.com/in/yourname">
+                        <Image src="/images/Placeholder.png" alt="Placeholder social icon" width={32} height={32}/>
                     </Link>
-                    <Link href="https://github.com/abbybravo">
-                        <Image src={GithubIcon} alt = "Github Icon" width={32} height={32}/>
+                    <Link href="https://github.com/yourname">
+                        <Image src="/images/Placeholder.png" alt="Placeholder social icon" width={32} height={32}/>
                     </Link>
                 </div>
             </div>
             <div>
                 <form 
-                    action="https://formspree.io/f/xbdawvwd" // <-- replace with your Formspree ID
+                    action="https://formspree.io/f/yourformspreeid" // <-- replace with your Formspree ID
                     method="POST"
                     className="flex flex-col"
                     onSubmit={handleSubmit}
@@ -68,7 +66,7 @@ const EmailSection = () => {
                             id="email" 
                             required 
                             className="bg-[#1D3461]/60 border-[#1D3461]/60 border dark:bg-[#6290C8]/30 border dark:border-[#6290C8]/50 placeholder:text-gray-300 text-white text-sm rounded-lg block w-full p-2.5"
-                            placeholder="ab@google.com"
+                            placeholder="email@google.com"
                         />
                     </div>
 

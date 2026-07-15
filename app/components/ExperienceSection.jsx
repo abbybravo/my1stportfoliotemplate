@@ -8,42 +8,42 @@ import { motion, useInView } from "framer-motion";
 const experienceData = [
   {
     id: 1,
-    company: "Micron Technology",
-    role: "Photomask Fab Support Engineering Intern",
-    time: "Summer 2025",
-    description: "Led wafer trial progress across a cross-functional team of 20+ people to strengthen understanding of defectivity risk/data and identify optimal reticle carrier that results in nearly 0% defectivity targets critical for ID1 and ID2 reticle transfers.",
-    image: "/images/experiences/micron.png", /** change later to micron */
+    company: "Company Name",
+    role: "Role",
+    time: "Summer 20xx",
+    description: "Description",
+    image: "/images/Placeholder.png",
     tag: ["All", "Engineering"],
-    previewUrl: "https://www.micron.com"
+    previewUrl: "Company website"
   },
   {
     id: 2,
-    company: "Bechtel Corporation",
-    role: "Mechanical/Pipe Field Engineering Intern",
-    time: "Summer 2024",
-    description: "Developed an Excel tracker for 75% of the High-Level Waste facility’s equipment, streamlining verification efforts, exposing inconsistencies between inventory databases and facility to support progress on a $15 billion Department of Energy project.",
-    image: "/images/experiences/bechtel2.png", /** change later to bechtel */
+    company: "Company Name",
+    role: "Role",
+    time: "Summer 20xx",
+    description: "Description",
+    image: "/images/Placeholder.png",
     tag: ["All", "Engineering"],
-    previewUrl: "https://www.bechtel.com"
+    previewUrl: "Company website"
   },
   {
     id: 3,
-    company: "Squirrel's Remodeling LLC | 2019 - Present",
-    role: "Project Manager",
-    time: "2019 - Present",
-    description: "Prepare detailed quotes for 100+ remodeling projects via email and PDF Documentation, and calculate costs with Google Sheets.",
-    image: "/images/experiences/squirrels-remodeling.png", /** not loading */
+    company: "Company Name",
+    role: "Role",
+    time: "20xx - Present",
+    description: "Description",
+    image: "/images/Placeholder.png",
     tag: ["All", "Business"],
   },
    {
     id: 4,
-    company: "Raw Nutrition/BUM Energy | Present",
-    role: "Brand Ambassador",
+    company: "Company Name",
+    role: "Role",
     time: "Present",
-    description: "Support product launches and drive engagement as a brand ambassador.",
-    image: "/images/experiences/RAW-Nutrition.png", /** add raw nutrition later */
+    description: "Description",
+    image: "/images/Placeholder.png",
     tag: ["All", "Brand"],
-    previewUrl: "https://www.getrawnutrition.com"
+    previewUrl: "Company website"
   },
 ];
 
